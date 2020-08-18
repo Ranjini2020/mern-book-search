@@ -37,6 +37,7 @@ class Home extends Component {
       );
   };
 
+  // function to handle formSubmit
   handleFormSubmit = event => {
     event.preventDefault();
     this.getBooks();
@@ -62,10 +63,10 @@ class Home extends Component {
         <Row>
           <Col size="md-12">
             <Jumbotron>
-              <h1 className="text-center">
+              <h1 className="bg-success text-white text-center">
                 <strong>Google Book Search</strong>
               </h1>
-              <h2 className="text-center">Search for and Save Books of Interest.</h2>
+              <h2 className="bg-primary text-white text-center">Search for and Save Books of Interest.</h2>
             </Jumbotron>
           </Col>
           <Col size="md-12">
