@@ -1,6 +1,6 @@
 {
   "name": "react-google-books",
-  "homepage": "http://Ranjini2020.github.io/mern-book-search",
+  
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -11,9 +11,8 @@
     "client": "cd client && npm run start",
     "install": "cd client && npm install",
     "build": "cd client && npm run build",
-    "heroku-postbuild": "npm run build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "heroku-postbuild": "npm run build"
+    
   },
   "author": "",
   "license": "ISC",
